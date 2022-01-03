@@ -1,1 +1,10 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+/**
+ * Global Color Variables
+ */
+.canvas {
+  position: relative;
+  width: 100vw;
+  height: 100vw;
+  background: #321;
+}
+/*# sourceMappingURL=main.css.map */
