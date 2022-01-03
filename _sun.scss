@@ -7,4 +7,15 @@
   top: -20vmin;
   background: $sun-base-color;
   border: 1vmin solid $sun-dark-color;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 124vmin;
+    height: 124vmin;
+    border-radius: 50%;
+    top: -7.5vmin;
+    left: -7.5vmin;
+    background-color: rgba($sun-base-color, 100%);
+    box-shadow: 0 0 300vmin $sun-base-color;
+  }
 }
