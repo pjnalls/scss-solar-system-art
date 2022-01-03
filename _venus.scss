@@ -1,0 +1,10 @@
+.venus {
+  position: absolute;
+  width: 2.5vmin;
+  height: 2.5vmin;
+  border-radius: 50%;
+  top: 90vmin;
+  left: 15vmin;
+  background-color: $venus-base-color;
+  border-bottom: 0.75vmin solid $venus-dark-color;
+}
