@@ -1,0 +1,48 @@
+.spots {
+  position: absolute;
+  width: 60vmin;
+  height: 60vmin;
+  border-radius: 50%;
+  background: $spot-cyan;
+  opacity: 33%;
+  top: -40vmin;
+  left: 50vmin;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 33vmin;
+    height: 33vmin;
+    border-radius: 50%;
+    background: $spot-magenta;
+    opacity: 30%;
+    top: 100vmin;
+    left: -5vmin;
+  }
+  &-hexigon {
+    position: absolute;
+    height: 7.5vmin;
+    width: 20vmin;
+    background: $spot-yellow;
+    opacity: 27.5%;
+    left: 100vmin;
+    &::before {
+      content: "";
+      position: absolute;
+      border-bottom: 5vmin solid $spot-yellow;
+      border-left: 5vmin solid transparent;
+      border-right: 5vmin solid transparent;
+      top: -5vmin;
+      width: 20vmin;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      border-top: 5vmin solid $spot-yellow;
+      border-left: 5vmin solid transparent;
+      border-right: 5vmin solid transparent;
+      top: 7.5vmin;
+      width: 20vmin;
+    }
+    transform: scaleX(87.5%);
+  }
+}
