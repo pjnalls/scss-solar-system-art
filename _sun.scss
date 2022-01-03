@@ -1,0 +1,10 @@
+.sun {
+  position: absolute;
+  width: 109vmin;
+  height: 109vmin;
+  border-radius: 50%;
+  left: -20vmin;
+  top: -20vmin;
+  background: $sun-base-color;
+  border: 1vmin solid $sun-dark-color;
+}
