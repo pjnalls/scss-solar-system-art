@@ -47,6 +47,19 @@ body {
   border: 1vmin solid #cf9025;
 }
 
+.canvas .sun::before {
+  content: "";
+  position: absolute;
+  width: 124vmin;
+  height: 124vmin;
+  border-radius: 50%;
+  top: -7.5vmin;
+  left: -7.5vmin;
+  background-color: #ffc751;
+  -webkit-box-shadow: 0 0 300vmin #ffc751;
+          box-shadow: 0 0 300vmin #ffc751;
+}
+
 .canvas .spots {
   position: absolute;
   width: 60vmin;
@@ -158,5 +171,16 @@ body {
   left: 15vmin;
   background-color: #c7dfa0;
   border-bottom: 0.75vmin solid #9fc28e;
+}
+
+.canvas .mercury {
+  position: absolute;
+  width: 1vmin;
+  height: 1vmin;
+  border-radius: 50%;
+  top: 33vmin;
+  left: 50vmin;
+  background: #af957f;
+  border: 0.25vmin solid #8f6050;
 }
 /*# sourceMappingURL=main.css.map */
