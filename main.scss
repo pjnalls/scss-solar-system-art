@@ -1,0 +1,8 @@
+@import "config";
+
+.canvas {
+  position: relative;
+  width: 100vw;
+  height: 100vw;
+  background: $background-color;
+}
