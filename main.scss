@@ -8,6 +8,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
   @import "sun";
   @import "spots";
+  @import "earth";
+  @import "mars";
 }
