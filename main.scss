@@ -3,7 +3,10 @@
 .canvas {
   position: relative;
   width: 100vw;
-  height: 100vw;
+  height: 100vh;
   background: $background-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   @import "sun";
 }
