@@ -101,7 +101,7 @@ body {
   width: 20vmin;
 }
 
-.canvas .earth {
+.canvas .gaia {
   position: absolute;
   background: -webkit-gradient(linear, left top, right bottom, from(#f1f4f7), color-stop(#af7065), color-stop(#4f6ab0), color-stop(#4f6ab0), color-stop(#4f6ab0), to(#4f6ab0));
   background: linear-gradient(to bottom right, #f1f4f7, #af7065, #4f6ab0, #4f6ab0, #4f6ab0, #4f6ab0);
@@ -112,7 +112,7 @@ body {
   right: -12vmin;
 }
 
-.canvas .earth::after {
+.canvas .gaia::after {
   content: "";
   position: absolute;
   width: 30vmin;
@@ -126,7 +126,7 @@ body {
           box-shadow: 3vmin 0 2.5vmin #f1f4f7;
 }
 
-.canvas .earth::before {
+.canvas .gaia::before {
   content: "";
   position: absolute;
   width: 22.5vmin;
@@ -147,5 +147,16 @@ body {
   border-radius: 50%;
   left: 100vmin;
   background: #cf6550;
+}
+
+.canvas .venus {
+  position: absolute;
+  width: 2.5vmin;
+  height: 2.5vmin;
+  border-radius: 50%;
+  top: 90vmin;
+  left: 15vmin;
+  background-color: #c7dfa0;
+  border-bottom: 0.75vmin solid #9fc28e;
 }
 /*# sourceMappingURL=main.css.map */
