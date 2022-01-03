@@ -1,0 +1,43 @@
+.earth {
+  position: absolute;
+  background: linear-gradient(
+    to bottom right,
+    $earth-cloud-color,
+    $earth-dirt-color,
+    $earth-base-color,
+    
+    $earth-base-color,
+    $earth-base-color,
+    $earth-base-color
+  );
+  width: 44vmin;
+  height: 44vmin;
+  border-radius: 50%;
+  top: 80vmin;
+  right: -12vmin;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 30vmin;
+    height: 30vmin;
+    top: 6vmin;
+    left: 4vmin;
+    border-radius: 50%;
+    background: transparent;
+    border-right: 3vmin solid $earth-cloud-color;
+    box-shadow: 3vmin 0 2.5vmin $earth-cloud-color;
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    width: 22.5vmin;
+    height: 22.5vmin;
+    top: 10vmin;
+    left: 10vmin;
+    border-radius: 50%;
+    background: transparent;
+    border-left: 3vmin solid $earth-cloud-color;
+    box-shadow: -3vmin 0 2.5vmin $earth-cloud-color,
+    5vmin -3vmin 5vmin inset $earth-green-color,
+  }
+}
