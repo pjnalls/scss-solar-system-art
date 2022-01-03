@@ -45,4 +45,58 @@ body {
   background: #ffc751;
   border: 1vmin solid #cf9025;
 }
+
+.canvas .spots {
+  position: absolute;
+  width: 60vmin;
+  height: 60vmin;
+  border-radius: 50%;
+  background: cyan;
+  opacity: 33%;
+  top: -40vmin;
+  left: 50vmin;
+}
+
+.canvas .spots::after {
+  content: "";
+  position: absolute;
+  width: 33vmin;
+  height: 33vmin;
+  border-radius: 50%;
+  background: magenta;
+  opacity: 30%;
+  top: 100vmin;
+  left: -5vmin;
+}
+
+.canvas .spots-hexigon {
+  position: absolute;
+  height: 7.5vmin;
+  width: 20vmin;
+  background: yellow;
+  opacity: 27.5%;
+  left: 100vmin;
+  -webkit-transform: scaleX(87.5%);
+          transform: scaleX(87.5%);
+}
+
+.canvas .spots-hexigon::before {
+  content: "";
+  position: absolute;
+  border-bottom: 5vmin solid yellow;
+  border-left: 5vmin solid transparent;
+  border-right: 5vmin solid transparent;
+  top: -5vmin;
+  width: 20vmin;
+}
+
+.canvas .spots-hexigon::after {
+  content: "";
+  position: absolute;
+  border-top: 5vmin solid yellow;
+  border-left: 5vmin solid transparent;
+  border-right: 5vmin solid transparent;
+  top: 7.5vmin;
+  width: 20vmin;
+}
 /*# sourceMappingURL=main.css.map */
