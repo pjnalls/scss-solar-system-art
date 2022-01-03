@@ -1,0 +1,10 @@
+.mercury {
+  position: absolute;
+  width: 1vmin;
+  height: 1vmin;
+  border-radius: 50%;
+  top: 33vmin;
+  left: 50vmin;
+  background: $mercury-base-color;
+  border: 0.25vmin solid $mercury-dark-color;
+}
